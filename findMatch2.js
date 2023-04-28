@@ -1,3 +1,9 @@
+/** 1. Dado un vector de números enteros ordenado decrecientemente, diseñad un método
+tal que compruebe si el valor de alguno de los elementos del vector coincide con su
+índice.**/
+
+//Solution 2
+
 vector1 = [6 ,5, 4, 3, 2, 1];
 vector2 = [0];
 vector3 = [9,8,7,6,5];
