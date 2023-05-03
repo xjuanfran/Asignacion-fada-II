@@ -36,3 +36,5 @@ console.log(findMatch(vector1));
 console.log(findMatch(vector2));
 console.log(findMatch(vector3));
 console.log(findMatch("hola"));
+
+//Temporal complexity: O(n)

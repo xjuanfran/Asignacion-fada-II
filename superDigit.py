@@ -16,3 +16,5 @@ if __name__ == '__main__':
     print(superdigit(29))
     print(superdigit(11))
     print(superdigit(2))
+
+# Temporal Complexity: O(n)

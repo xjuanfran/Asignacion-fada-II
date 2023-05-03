@@ -55,3 +55,4 @@ function count(x, exponent, num = 1, num3 = 1) {
   return found;
 }
 
+//Temporal complexity: O(n^2)

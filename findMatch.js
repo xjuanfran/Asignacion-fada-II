@@ -40,3 +40,5 @@ function findMatch(array, start = 0, end = array.length - 1) {
 console.log(findMatch(vector1));
 console.log(findMatch(vector2));
 console.log(findMatch(vector3));
+
+//Temporal complexity: O(log n)
