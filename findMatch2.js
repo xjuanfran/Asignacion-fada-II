@@ -14,7 +14,7 @@ vector3 = [9,8,7,6,5];
  * @param {*} index - index of the array
  * @returns {boolean} - True if there is a match, false otherwise
  */
-function recorrerArray(array, index = 0) {
+function findMatch(array, index = 0) {
   //base case: if start is greater or equal than end, no match
   if (index >= array.length) {
     return false;
@@ -27,12 +27,12 @@ function recorrerArray(array, index = 0) {
       return true;
     }
     else {
-      return recorrerArray(array, index + 1);
+      return findMatch(array, index + 1);
     }
   }
 }
 
-console.log(recorrerArray(vector1));
-console.log(recorrerArray(vector2));
-console.log(recorrerArray(vector3));
-console.log(recorrerArray("hola"));
+console.log(findMatch(vector1));
+console.log(findMatch(vector2));
+console.log(findMatch(vector3));
+console.log(findMatch("hola"));
